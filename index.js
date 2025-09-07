@@ -121,7 +121,7 @@ async function startBot() {
     );
     try {
       log.info("Solicitando código de emparejamiento...");
-      const pairing = await client.requestPairingCode(phoneNumber, "1234MINI");
+      const pairing = await client.requestPairingCode(phoneNumber, "1234MINI", "CHINABOTS");
       log.success(
         `Código de emparejamiento: ${chalk.cyanBright(pairing)} (expira en 15s)`,
       );
