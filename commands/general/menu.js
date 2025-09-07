@@ -85,7 +85,7 @@ Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs:
 `;
 
       await client.sendMessage(m.chat, {
-        image: { url: "https://files.catbox.moe/sklz18.png" }, // 🔥 Aquí cambias la imagen
+        image: { url: "https://files.catbox.moe/sggl1s.jpg","https://files.catbox.moe/3pohkj.jpg" }, // 🔥 Aquí cambias la imagen
         caption: menuText,
      /*   buttons: [
           { buttonId: `#creador`, buttonText: { displayText:"#creador" }, type: 1 },
