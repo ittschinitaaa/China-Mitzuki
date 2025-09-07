@@ -38,8 +38,8 @@ Descargas rápidas:
 ```bash
 apt install git -y
 apt install nodejs -y
-git clone https://github.com/ittschinitaaa/Starlights.git
-cd Starlights
+git clone https://github.com/ittschinitaaa/China-Mitzuki.git
+cd China-Mitzuki
 npm install
 node index.js
 ```
