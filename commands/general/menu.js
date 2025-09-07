@@ -10,7 +10,7 @@ module.exports = {
 Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs: 
 ╭┈ ↷
 │ ✐ 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂  𝑪𝑯𝑰𝑵𝑰𝑻𝑨 | ᵒᶠᶦᶜᶦᵃˡ
-│ ✐ ꒷ꕤ🌟ദ ᴄᴀɴᴀʟ ᴏғɪᴄɪᴀʟ ෴
+│ ✐ ꒷ꕤ🇨🇳ദ ᴄᴀɴᴀʟ ᴏғɪᴄɪᴀʟ ෴
 │https://whatsapp.com/channel/0029Vb6MLeIH5JLzORX6351n
 ╰━━━━━━━━━━
 
@@ -87,11 +87,11 @@ Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs:
       await client.sendMessage(m.chat, {
         image: { url: "https://files.catbox.moe/sklz18.png" }, // 🔥 Aquí cambias la imagen
         caption: menuText,
-        buttons: [
+     /*   buttons: [
           { buttonId: `#creador`, buttonText: { displayText:"#creador" }, type: 1 },
           { buttonId: `#info`, buttonText: { displayText: "#info" }, type: 1 },
           { buttonId: `#ping`, buttonText: { displayText: "#ping" }, type: 1 }
-        ],
+        ],*/
         headerType: 4
       }, { quoted: m });
 
