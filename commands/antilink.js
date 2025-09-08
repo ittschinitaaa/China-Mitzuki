@@ -46,7 +46,7 @@ module.exports = async (client, m) => {
       client.sendMessage(
         m.chat,
         {
-          text: `Anti Enlaces\n\n@${m.sender.split("@")[0]} mandaste un enlace *prohibido*`,
+          text: `\`[𝐀𝐍𝐓𝐈-𝐋𝐈𝐍𝐊 𝐄𝐒𝐓𝐀 𝐀𝐂𝐓𝐈𝐕𝐎]\`\n\n@${m.sender.split("@")[0]} \nenviaste un enlace...\nSeras eliminado.,
           contextInfo: { mentionedJid: [m.sender] },
         },
         { quoted: m },
