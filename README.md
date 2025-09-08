@@ -1,4 +1,4 @@
-## ﹒⌗﹒𝐒𝐓𝐀𝐑𝐋𝐈𝐆𝐇𝐓𝐒 .ৎ˚₊‧ 
+## ﹒⌗﹒𝐂ℍ𝐈ℕ𝐀 - 𝕄𝐈𝕋𝐙𝕌𝐊𝕀 .ৎ˚🇨🇳₊‧ 
 > base para desarrolladores que desean iniciar su propio bot de WhatsApp desde cero.
 
 <p align="center">
@@ -46,4 +46,4 @@ node index.js
 ### **`𝐏𝐑☯︎𝐏𝐈𝚵𝐓公𝐑𝐈公`**
 <a
 href="https://github.com/ittschinitaaa"><img src="https://github.com/ittschinitaaa.png" width="130" height="130" alt="
-mі́ᥲ|᥆𝖿іᥴіᥲᥣ𒆜"/></a>
+ᥴһіᥒі𝗍ᥲᥲᥲ"/></a>
