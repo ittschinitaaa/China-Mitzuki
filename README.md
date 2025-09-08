@@ -1,4 +1,4 @@
-## ﹒⌗﹒𝐂ℍ𝐈ℕ𝐀 - 𝕄𝐈𝕋𝐙𝕌𝐊𝕀 .ৎ˚🇨🇳₊‧ 
+## ﹒⌗﹒𝐂ℍ𝐈ℕ𝐀 .ৎ˚🇨🇳₊‧ 
 > base para desarrolladores que desean iniciar su propio bot de WhatsApp desde cero.
 
 <p align="center">
