@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
   command: ["kickall"],
   description: "Elimina a todos los miembros del grupo (solo creador del bot)",
   category: "groups",
@@ -50,4 +50,4 @@ module.exports = {
     }
   },
 };
-
+*/
