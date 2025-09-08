@@ -30,6 +30,69 @@ module.exports = async (client, m) => {
         return client.sendMessage(
           m.chat,
           { text: `El enlace *pertenece* a este grupo` },
+          { quoted: m }
+        );
+      }
+
+      // eliminar el mensaje con link
+      await client.sendMessage(m.chat, {
+        delete: {
+          remoteJid: m.chat,
+          fromMe: false,
+          id: m.key.id,
+          participant: m.key.participant,
+        },
+      });
+
+      // advertir y expulsar al usuario
+      await client.sendMessage(
+        m.chat,
+        {
+          text: `\`[𝐀𝐍𝐓𝐈-𝐋𝐈𝐍𝐊 𝐄𝐒𝐓𝐀 𝐀𝐂𝐓𝐈𝐕𝐎]\`\n\n@${m.sender.split("@")[0]} \nenviaste un enlace...\nSerás eliminado.`,
+          contextInfo: { mentionedJid: [m.sender] },
+        },
+        { quoted: m }
+      );
+
+      await client.groupParticipantsUpdate(m.chat, [m.sender], "remove");
+    } catch (e) {
+      console.error(e);
+    }
+  }
+};
+
+/*module.exports = async (client, m) => {
+  if (!global.db.data.chats[m.chat]?.antilink) return;
+
+  let linksProhibidos = {
+    telegram: /telegram\.me|t\.me/gi,
+    facebook: /facebook\.com/gi,
+    whatsapp: /chat\.whatsapp\.com/gi,
+    youtube: /youtu\.be|youtube\.com/gi,
+  };
+
+  function validarLink(mensaje, tipos) {
+    for (let tipo of tipos) {
+      if (mensaje.match(linksProhibidos[tipo])) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  let enlacesDetectados = ["whatsapp", "telegram"];
+
+  if (validarLink(m.text, enlacesDetectados)) {
+    try {
+      let gclink =
+        "https://chat.whatsapp.com/" + (await client.groupInviteCode(m.chat));
+      let isLinkThisGc = new RegExp(gclink, "i");
+      let isGcLink = isLinkThisGc.test(m.text);
+
+      if (isGcLink) {
+        return client.sendMessage(
+          m.chat,
+          { text: `El enlace *pertenece* a este grupo` },
           { quoted: m },
         );
       }
@@ -58,3 +121,4 @@ module.exports = async (client, m) => {
     }
   }
 };
+*/
