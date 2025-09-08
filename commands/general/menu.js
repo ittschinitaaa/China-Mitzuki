@@ -28,6 +28,9 @@ Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs:
 ❒ #ping
 > Ver velocidad de la bot. 
 ❒ #perfil
+> ver tu perfil de usuario. 
+❒ #lid
+> ver tu lid.
 
  ╭ֹ┈ ⵿❀⵿ 𝑫𝑬𝑺𝑪𝑨𝑹𝑮𝑨
 > 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 𝒅𝒆 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒔. 
