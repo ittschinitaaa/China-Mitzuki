@@ -64,7 +64,7 @@ Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs:
 ❒ #link
 > La bot enviará el Link del Grupo. 
 ❒ #on
-> Ve los Antis del Grupo. 
+> Activa o desactiva los Antis. 
 ❒ #setdesc
 > Cambia le descripción del Grupo. 
 ❒ #setname
@@ -85,6 +85,18 @@ Aǫᴜɪ ᴇsᴛᴀ ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs:
 
 ❒ #s
 > Crea un sticker con una imagen.
+
+ ╭ֹ┈ ⵿❀⵿ 𝑯𝑬𝑹𝑹𝑨𝑴𝑰𝑬𝑵𝑻𝑨𝑺
+ > 𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔 𝑼́𝒕𝒊𝒍𝒆𝒔
+ 
+❒ #calc
+> Calculadora. 
+❒ #acortar
+> acortador de enlaces. 
+❒ #qr
+> Generador de QR. 
+❒ #clima
+> Ve el clima de la cuidad. 
 `;
 
       await client.sendMessage(m.chat, {
