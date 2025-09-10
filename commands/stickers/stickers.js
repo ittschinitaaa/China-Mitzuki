@@ -16,7 +16,7 @@ module.exports = {
       year: "numeric",
     });
 
-    let stickerTxT2 = "- 🌟ᩧ　ׅ　ׄ　⁞⁞ 𝐒𝕋𝐀ℝ𝐋𝕀𝐆ℍ𝐓S\n";
+    let stickerTxT2 = "- 🇨🇳ᩧ　ׅ　ׄ　⁞⁞ 𝐂𝐇𝐈𝐍𝐀 - 𝐌𝐈𝐓𝐙𝐔𝐊𝐈\n";
     let stickerTxT = "⌯ ᤳ݄፞🔥꯭݃ 𝐏𝕆𝐖𝔼𝐑𝔼𝐃 𝔹𝐘 ℂ𝐇𝕀𝐍𝕀𝐓𝔸";
     
     if (/image/.test(mime)) {
